@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio da imagem flexível</title>
+</head>
+<body>
+    <h1>Desafio da imagem flexível</h1>
+    <p>Se a imagem estiver completa, experimente diminuir o tamanho da janela para ver a imagem menor ou amplie sua janela para vê-la maior.</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/foto-300.jpg" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-600.jpg" type="image/jpeg">
+        <img src="imagens/foto-1000.jpg" alt="A imagem flexível funciona">
+    </picture>
+</body>
+</html>
